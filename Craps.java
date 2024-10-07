@@ -16,12 +16,7 @@ public class Craps{
             while(!game){
                 int sum2=rollDice();
                 System.out.println("the next roll sum is "+ sum2);
-                if(sum2==7){
-                    System.out.println("You lose");
-                    game=true;
-                }else if(sum1==sum2){
-                    System.out.println("You win");
-                    game=true;
+                
                 }
             }
         }
